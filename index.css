@@ -1,0 +1,113 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gowun Dodum', sans-serif;
+  background: rgb(236,255,0);
+  background: linear-gradient(180deg, rgba(236,255,0,1) 0%, rgba(0,0,1,1) 61%);
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+.header{
+  text-align: center;
+  margin-top: 75px;
+  font-size: 50px;
+}
+
+.form-container{
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  position: relative;
+}
+
+form{
+  position: relative;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.input-todo{
+  width: 100%;
+  font-size: 28px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  padding: 5px 45px 5px 10px;
+}
+
+.fa-plus{
+  position: absolute;
+  font-size: 40px;
+  bottom: 25px;
+  left: 465px;
+  cursor: pointer;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  transition: .5s;
+}
+.fa-plus:hover{
+  color: rgb(82, 82, 82);
+}
+
+button{
+  background-color: transparent;
+  border: none;
+}
+
+ul{
+  width: 700px;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  flex-direction: column;  
+}
+
+li{
+  margin: 0 auto 10px 0;
+  width: 80%;
+  background-color: #fff;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 7px;
+  margin: 0 auto 15px 0;
+  float: left;
+}
+.fa-check{
+  font-size: 25px;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: .5s;
+}
+.fa-check:hover{
+  color: rgb(52, 199, 15);
+}
+
+.fa-trash{
+  font-size: 25px;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: .5s;
+}
+.fa-trash:hover{
+  color: red;
+}
+
+.completed{
+  text-decoration: line-through;
+  color: rgb(143, 143, 143);
+}
+
+select{
+  margin-left: 48%;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+}
